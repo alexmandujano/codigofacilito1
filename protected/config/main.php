@@ -8,7 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'My Web Application',
-
+	'theme'=>"classic",
 	// preloading 'log' component
 	'preload'=>array('log'),
 
@@ -17,7 +17,7 @@ return array(
 		'application.models.*',
 		'application.components.*',
 	),
-
+	
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
 		
